@@ -56,6 +56,7 @@
 		CE9FFA532481362E00DB7C3E /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				CE9FFA6824814A3F00DB7C3E /* Class */,
 				CE9FFA542481362E00DB7C3E /* AppDelegate.swift */,
 				CE9FFA562481362E00DB7C3E /* SceneDelegate.swift */,
 				CE9FFA582481362E00DB7C3E /* ViewController.swift */,
@@ -65,6 +66,61 @@
 				CE9FFA622481363500DB7C3E /* Info.plist */,
 			);
 			path = DouYuZB;
+			sourceTree = "<group>";
+		};
+		CE9FFA6824814A3F00DB7C3E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FFA6924814A3F00DB7C3E /* Home */,
+				CE9FFA6A24814A3F00DB7C3E /* Tools */,
+				CE9FFA6B24814A3F00DB7C3E /* Follow */,
+				CE9FFA6C24814A3F00DB7C3E /* Profile */,
+				CE9FFA6D24814A3F00DB7C3E /* Live */,
+				CE9FFA6E24814A3F00DB7C3E /* Mian */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE9FFA6924814A3F00DB7C3E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE9FFA6A24814A3F00DB7C3E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CE9FFA6B24814A3F00DB7C3E /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CE9FFA6C24814A3F00DB7C3E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CE9FFA6D24814A3F00DB7C3E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CE9FFA6E24814A3F00DB7C3E /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mian;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCMMMLF698;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCMMMLF698;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
